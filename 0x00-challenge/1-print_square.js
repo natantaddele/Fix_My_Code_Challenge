@@ -1,3 +1,4 @@
+#!/usr/bin/node
 if (process.argv.length <= 2) {
     process.stderr.write("Missing argument\n");
     process.stderr.write("Usage: ./1-print_square.js <size>\n");
